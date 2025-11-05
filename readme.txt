@@ -10,8 +10,13 @@
 查看私人日记					git reflog
 重置到指定版本				git reset --hard[版本号]
 
-查看对应远程仓库	git remote -v
 
+----------》 如何添加远程库？ 《--------------
+添加远程仓库关联	git remote add origin https://github.com/280138/testgit.git
+查看对应远程仓库									git remote -v
+第一次推送master分支  git push -u origin master:main  (用-u 进行分支关联)
+把"本地"master分支推送到远程仓库origin中同名分支		git push origin master
+将本地master推送到远程main						git push origin master:main
 
 
 
